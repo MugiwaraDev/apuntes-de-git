@@ -1,5 +1,10 @@
 ## Curso Git desde 0
 
+### Zonas de Git
+1. Working Directory
+2. Staging Area
+3. .git Directory
+
 ### Flujo de Trabajo con Git
 1. Modificas una serie de archivos en tu directorio de trabajo.
 2. Preparas los archivos, añadiendolos a tu área de preparación.
