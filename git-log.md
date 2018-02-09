@@ -1,6 +1,9 @@
 ### git log
 Muetras el historial de commits
 
+`-n`
+Nos mostrará el número de commits indicados.
+
 `--oneline`
 Nos muestra el historial abreviado.
 
