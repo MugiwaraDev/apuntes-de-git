@@ -13,3 +13,6 @@ ramificaciones y uniones.
 
 `git log --pretty=format:"%h - %an, %ar : %s"`
 Mustra el historial con el formato que le indicamos.
+
+`git log --decorate --oneline --all --graph`
+Este comando nos muestra el historial en una sola línea por commit.
