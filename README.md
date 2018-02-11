@@ -21,6 +21,3 @@ git config --global user.email "email@email.com"
 git config --global core.editor nano
 git config --list
 ```
-
-## Varios repositorios remotos
-Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios
