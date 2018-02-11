@@ -1,4 +1,4 @@
-### git checkout
+# git checkout
 
 Este es un comando peligroso.
 Cualquier cambio que le hayas hecho al archivo desaparecerá.
