@@ -20,3 +20,16 @@ git config --global user.name "User Name"
 git config --global user.email "email@email.com"
 git config --global core.editor nano
 git config --list
+```
+
+## Configuración SSH
+1. Ejecutamos el comando `ssh-keygen -t rsa -C "correo@ejemplo.com"`.
+El correo debe ser el mismo con el que nos registramos en GitHub para evitar posibles problemas.
+Dejamos el passphrase vacío y damos enter.
+Cuando nos pida la ruta escribimos lara ruta donde se generó la llave.
+
+2. Iniciamos ssh-agent en background ejecutando el comando `eval "$(ssh-agent -s)"`.
+
+3. Agregamos la llave ssh generada a ssh-agent ejecutando el comando `ssh-add` y la ruta de la llave.
+
+4. Desde ahora podemos hacer pull y push sin que GitHub nos esté pidiendo los datos de acceso.
