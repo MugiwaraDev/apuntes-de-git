@@ -1,4 +1,4 @@
-### git log
+# git log
 Muetras el historial de commits
 
 `-n`

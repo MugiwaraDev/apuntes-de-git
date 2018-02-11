@@ -1,4 +1,4 @@
-### git tag
+# git tag
 
 Este comando lista las etiquetas en orden alfabético; el orden en el que aparecen no tiene mayor importancia.
 
