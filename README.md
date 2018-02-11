@@ -20,4 +20,3 @@ git config --global user.name "User Name"
 git config --global user.email "email@email.com"
 git config --global core.editor nano
 git config --list
-```
